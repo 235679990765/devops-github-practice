@@ -1,0 +1,12 @@
+git init
+ git staus
+ git status
+ git add .
+ git status
+  git commit -m "updated code"
+ git push origin master
+git add .
+ git status
+   git add test2.py
+ git commit -m "updated code"
+ git push origin master
