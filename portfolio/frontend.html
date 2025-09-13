@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for responsive design and SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anil Rot - DevOps Engineer Portfolio">
+    <meta name="keywords" content="DevOps, Engineer, Docker, Kubernetes, AWS, CI/CD">
+    <title>Anil Rot - DevOps Engineer</title>
+    
+    <!-- External CSS Libraries -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Anil Rot</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Anil Rot</span>
+                    </h1>
+                    <h2 class="hero-subtitle">DevOps Engineer</h2>
+                    <p class="hero-description">
+                        Passionate about automating infrastructure, streamlining deployments, 
+                        and building scalable cloud solutions. Expertise in CI/CD pipelines, 
+                        containerization, and cloud platforms.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rot-anil-59135828b/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/anilrot" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:rotbalvant@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="image/anil.jpg" alt="Anil Rot - DevOps Engineer" class="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Animated background elements -->
+        <div class="hero-bg">
+            <div class="floating-element" style="top: 10%; left: 10%;">
+                <i class="fab fa-docker"></i>
+            </div>
+            <div class="floating-element" style="top: 20%; right: 15%;">
+                <i class="fab fa-aws"></i>
+            </div>
+            <div class="floating-element" style="bottom: 30%; left: 20%;">
+                <i class="fab fa-jenkins"></i>
+            </div>
+            <div class="floating-element" style="bottom: 20%; right: 10%;">
+                <i class="fab fa-kubernetes"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>DevOps Engineer with B.Tech Background</h3>
+                    <p>
+                        I'm a passionate DevOps Engineer with a Bachelor's degree in Technology, 
+                        specializing in automating and optimizing mission-critical deployments. 
+                        I have extensive experience in cloud platforms, containerization, 
+                        and continuous integration/continuous deployment (CI/CD) pipelines.
+                    </p>
+                    <p>
+                        My expertise lies in bridging the gap between development and operations, 
+                        ensuring faster delivery of high-quality software while maintaining 
+                        system reliability and scalability.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>2+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>15+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Technologies Mastered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Cloud Platforms -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">Google Cloud</span>
+                        <span class="skill-tag">Digital Ocean</span>
+                    </div>
+                </div>
+
+                <!-- Containerization -->
+                <div class="skill-category">
+                    <h3><i class="fab fa-docker"></i> Containerization</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Docker Compose</span>
+                        <span class="skill-tag">Helm</span>
+                    </div>
+                </div>
+
+                <!-- CI/CD Tools -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code-branch"></i> CI/CD</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitLab CI</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Azure DevOps</span>
+                    </div>
+                </div>
+
+                <!-- Infrastructure as Code -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Infrastructure as Code</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Ansible</span>
+                        <span class="skill-tag">CloudFormation</span>
+                        <span class="skill-tag">Puppet</span>
+                    </div>
+                </div>
+
+                <!-- Monitoring -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Monitoring</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">Grafana</span>
+                        <span class="skill-tag">ELK Stack</span>
+                        <span class="skill-tag">Nagios</span>
+                    </div>
+                </div>
+
+                <!-- Programming -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">PowerShell</span>
+                        <span class="skill-tag">YAML</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fab fa-docker project-icon"></i>
+                        <h3>Microservices CI/CD Pipeline</h3>
+                    </div>
+                    <p>
+                        Implemented complete CI/CD pipeline for microservices architecture using 
+                        Jenkins, Docker, and Kubernetes. Automated testing, building, and deployment 
+                        processes reducing deployment time by 80%.
+                    </p>
+                    <div class="project-tech">
+                        <span>Jenkins</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>AWS EKS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fab fa-aws project-icon"></i>
+                        <h3>AWS Infrastructure Automation</h3>
+                    </div>
+                    <p>
+                        Designed and implemented scalable AWS infrastructure using Terraform. 
+                        Created auto-scaling groups, load balancers, and monitoring systems 
+                        for high-availability applications.
+                    </p>
+                    <div class="project-tech">
+                        <span>Terraform</span>
+                        <span>AWS EC2</span>
+                        <span>CloudWatch</span>
+                        <span>Route 53</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Documentation
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-chart-line project-icon"></i>
+                        <h3>Monitoring & Alerting System</h3>
+                    </div>
+                    <p>
+                        Built comprehensive monitoring solution using Prometheus and Grafana. 
+                        Implemented custom dashboards and alerting rules for proactive 
+                        system monitoring and incident response.
+                    </p>
+                    <div class="project-tech">
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>AlertManager</span>
+                        <span>Node Exporter</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Dashboard
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-code-branch project-icon"></i>
+                        <h3>GitOps Deployment Pipeline</h3>
+                    </div>
+                    <p>
+                        Implemented GitOps workflow using ArgoCD and Kubernetes. Created 
+                        declarative deployment processes with automated rollbacks and 
+                        environment-specific configurations.
+                    </p>
+                    <div class="project-tech">
+                        <span>ArgoCD</span>
+                        <span>Kubernetes</span>
+                        <span>Helm Charts</span>
+                        <span>Git</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Guide
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in new opportunities and collaborations. 
+                        Feel free to reach out if you'd like to discuss DevOps solutions 
+                        or potential projects.
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>rotbalvant@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7069144121</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/rot-anil-59135828b</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Anil Rot. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
