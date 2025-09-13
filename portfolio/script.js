@@ -523,7 +523,8 @@ Analytics & Tracking (Optional)
 ====================================
 */
 
-// Track user interactions for analytics
+// Track user interactions for analytics yes bro
+
 function trackInteraction(action, category = 'Portfolio', label = '') {
     // Example: Google Analytics 4 event tracking
     if (typeof gtag !== 'undefined') {
